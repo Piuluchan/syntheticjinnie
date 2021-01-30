@@ -1190,7 +1190,6 @@ window.__require = function e(t, n, o) {
               // 物理引擎
               n.getComponent(cc.RigidBody).type = cc.RigidBodyType.Static,
               n.getComponent(cc.PhysicsCircleCollider).radius = 0,
-              n.getComponent(cc.PhysicsCircleCollider).restitution = 0.3,
               n.getComponent(cc.PhysicsCircleCollider).apply(), cc.tween(n).to(.5, {
               scale: 1
             }, {
